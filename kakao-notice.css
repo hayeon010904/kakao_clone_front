@@ -10,12 +10,12 @@ section>.notice{
     padding-left: 1.5rem;
 }
 .notice_day>img{    
-    width: 16.5rem;
+    width: 16.5rem;;
     padding:0;  
     position:relative;
     left:-6rem;
     top:0.5rem;
-    
+
 }
 h1{
     font-size: 3rem;
