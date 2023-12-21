@@ -7,17 +7,20 @@
     <link href="kakao-header.css" rel="stylesheet">
     <link href="kakao-notice.css" rel="stylesheet">
     <link href="kakao-article.css" rel="stylesheet">
+    <link href="kakao-banner.css" rel=" stylesheet">
     <style>
         *{  margin: 0;
             padding:0;;
             box-sizing: border-box;
+            /* height: 100%; */
         }
         .container{
             width: 100%;
+            
         }
 
     
-/* @media screen and (max-width:1439px) {
+ /* @media screen and (max-width:1439px) {
     .container{
             width:952px;
             margin: auto;    
@@ -40,13 +43,13 @@
         margin: auto;           
           }
           
-}  */
+}   */
       
     </style>
 </head>
 <body>
     <div class="container">
-        <header class="header">
+        <header id="header">
             <div>
             <div class="header-content flex" >
                 <div class="header-content__logo">kokoa</div>
@@ -75,82 +78,252 @@
     <!-- 카카오소식! -->
             <section>
                 <div class="notice">
-                <div class="notice_day"><img src="img/day.png"></div>
+                <div class="notice_day"><img src="img./cal.png"></div>
                 <h1 class="notice_h1">12월 20일에 전하는<br> 카카오 소식입니다</h1>
                 </div>
             </section>
-<!-- 여기서부터 메인 창들 -->
+<!-- 여기서부터 article 창들 -->
 
-            <section class="inform">
-                <article class="big 1">
+            <section class="inform" id="inform">
+                <article id="big1">
                     <div class="big head">
-                        <img src="">
+                        <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f4e2.png" width=20 height=20>
                         <div>보도자료</div>
-                        <div>2023.12.20</div>
+                        <p>2023.12.20</p>
                     </div>
-                    <h1>카카오임팩트,'태크포임팩트 커넥트데이'진행</h1>
-                    <div>
+                    <h2>카카오임팩트,'태크포임팩트 커넥트데이' 진행</h2>
+                    <div class="foot">
                         #카카오임책트 #테크포임팩트커넥트데이 #김범수초대이사장
-                    </div>
+                    </div>               
                 </article>
-                <article class="smail 1">
+                <article id="small1" class="small">
                     <div class="small head">
-                        <img src="">
+                        <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f496.png" width=20 height=20>
                         <div>약속과 책임</div>
                     </div>
                     <h3>ESG보고서, <br> 카카오의 약속과 책임</h3>
-                    <div>#카카오ESG #ESG보고서</div>
+                    <div class="foot">#카카오ESG #ESG보고서</div>
                 </article>
-                <article class="smail 2">
+                <article id="small2" class="small">
                     <div class="small head">
-                        <img src="">
+                        <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f50d.png" width=20 height=20>
                         <div>카톡설명서</div>
                     </div>
-                    <h3>모두의 카톡을 더 가깝고 안전하게,<br>카톡설명서</h3>
-                    <div>#카카오톡 #커뮤니케이션 #라이프</div>
+                    <h3>모두의 카톡을 더 가깝고 안전하게,카톡설명서</h3>
+                    <div class="foot">#카카오톡 #커뮤니케이션 #라이프</div>
                 </article>
-                <article class="smail 3">
+                <article id="small3" class="small">
                     <div class="small head">
-                        <img src="">
+                        <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f30d.png" width=20 height=20>
                         <div>액티브그린</div>
                     </div>
-                    <h3>이용자와 함께 꿈꾸는 지속가능한 지구</h3>
-                    <div>#esg #액티브그린 #환경</div>
+                    <h3>이용자와 함께 꿈꾸는 <br> 지속가능한 지구</h3>
+                    <div class="foot">#esg #액티브그린 #환경</div>
                 </article>
-                <article class="smail 4">
+                <article id="small4" class="small">
                     <div class="small head">
-                        <img src="">
+                        <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/260e.png" width=20 height=20>
                         <div>고객센터</div>
                     </div>
-                    <div>어떤 서비스를 도와드릴까요?</div>
-                    <div>카카오</div>
-                    <div>다음</div>
-                    <div>커머스</div>
+                    <div id="service">어떤 서비스를 도와드릴까요?</div>
+                    <ul id="service_ul">
+                    <li>카카오</li>
+                    <li>다음</li>
+                    <li>커머스</li>
+                    </ul>
+
                 </article>
-                <article class="mid 5">
+                <article id="mid5">
                     <div class="mid head">
-                        <img src="">
+                        <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f4e2.png" width=20 height=20>
                         <div>보도자료</div>
-                        <div>2023.12.20</div>
+                        <p>2023.12.20</p>
                     </div>
                     <h3>카카오, '제11회 브런치북<br> 출판 프로젝트'수상작 발표</h3>
-                    <div>#브런치스토리 #제11회브런치북</div>
+                    <div class="foot">#브런치스토리 #제11회브런치북</div>
                 </article>
-                <article class="mid 6">
+                <article id="mid6">
                     <div class="mid head">
-                        <img src="">
+                        <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f4e2.png" width=20 height=20>
                         <div>보도자료</div>
-                        <div>2023.12.19</div>
+                        <p>2023.12.19</p>
                     </div>
-                    <h3>카카오, 소상공인연합회<br>'상생 우수기업'수상</h3>
-                    <div>#소상공인연합회 #상생우수기업</div>
+                    <h3>카카오, 소상공인연합회<br>선정 '상생 우수기업'수상</h3>
+                    <div class="foot">#소상공인연합회 #상생우수기업</div>
                 </article>
+                </section>
+<!-- -------여기서부터 배너 -->
+                <section class="banner">
+                    <div id="banner_content">
+                    <article class="banner_1">
+                        <p>기술과 사람으로 <br class=media2>더 나은 세상을 만듭니다.</p>
+                        <div class="banner_1_div"> 카카오문화 바로가기 → </div>
+                    </article>
+                    <article class="banner_2">
+                        <p>카카오의 다양한 소식을 <br class="media3">구독해보세요.</p>
+                        <ul class="banner_2_img">
+                            <li >
+                                <img src="img./kakao.jpeg" class="banner_img">
+                            </li>
+                            <li>
+                                <img src="img./kakao.jpeg" class="banner_img">
+                            </li>
+                            <li>
+                                <img src="img./kakao.jpeg" class="banner_img">
+                            </li>
+                            <li>
+                                <img src="img./kakao.jpeg" class="banner_img">
+                            </li>
+                            <li>
+                                <img src="img./kakao.jpeg" class="banner_img">
+                            </li>
+                        </ul>
+                    </article>
+                     </div>
+                </section>
+                <!-- -------여기까지 배너 -->
 
 
 
-
-            </section>
-
+                 <section class="inform" id="inform">
+                    <article id="big1">
+                        <div class="big head">
+                            <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f4e2.png" width=20 height=20>
+                            <div>보도자료</div>
+                            <p>2023.12.20</p>
+                        </div>
+                        <h2>카카오임팩트,'태크포임팩트 커넥트데이' 진행</h2>
+                        <div class="foot">
+                            #카카오임책트 #테크포임팩트커넥트데이 #김범수초대이사장
+                        </div>               
+                    </article>
+                    <article id="small1" class="small">
+                        <div class="small head">
+                            <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f496.png" width=20 height=20>
+                            <div>약속과 책임</div>
+                        </div>
+                        <h3>ESG보고서, <br> 카카오의 약속과 책임</h3>
+                        <div class="foot">#카카오ESG #ESG보고서</div>
+                    </article>
+                    <article id="small2" class="small">
+                        <div class="small head">
+                            <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f50d.png" width=20 height=20>
+                            <div>카톡설명서</div>
+                        </div>
+                        <h3>모두의 카톡을 더 가깝고 안전하게,카톡설명서</h3>
+                        <div class="foot">#카카오톡 #커뮤니케이션 #라이프</div>
+                    </article>
+                    <article id="small3" class="small">
+                        <div class="small head">
+                            <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f30d.png" width=20 height=20>
+                            <div>액티브그린</div>
+                        </div>
+                        <h3>이용자와 함께 꿈꾸는 <br> 지속가능한 지구</h3>
+                        <div class="foot">#esg #액티브그린 #환경</div>
+                    </article>
+                    <article id="small4" class="small">
+                        <div class="small head">
+                            <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/260e.png" width=20 height=20>
+                            <div>고객센터</div>
+                        </div>
+                        <div id="service">어떤 서비스를 도와드릴까요?</div>
+                        <ul id="service_ul">
+                        <li>카카오</li>
+                        <li>다음</li>
+                        <li>커머스</li>
+                        </ul>
+    
+                    </article>
+                    <article id="mid5">
+                        <div class="mid head">
+                            <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f4e2.png" width=20 height=20>
+                            <div>보도자료</div>
+                            <p>2023.12.20</p>
+                        </div>
+                        <h3>카카오, '제11회 브런치북<br> 출판 프로젝트'수상작 발표</h3>
+                        <div class="foot">#브런치스토리 #제11회브런치북</div>
+                    </article>
+                    <article id="mid6">
+                        <div class="mid head">
+                            <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f4e2.png" width=20 height=20>
+                            <div>보도자료</div>
+                            <p>2023.12.19</p>
+                        </div>
+                        <h3>카카오, 소상공인연합회<br>선정 '상생 우수기업'수상</h3>
+                        <div class="foot">#소상공인연합회 #상생우수기업</div>
+                    </article>
+                    </section>
+                    <!-- -------아래부터 3번쨰 아티클덩어리 ~ -->
+        
+                     <section class="inform" id="inform">
+                        <article id="big1">
+                            <div class="big head">
+                                <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f4e2.png" width=20 height=20>
+                                <div>보도자료</div>
+                                <p>2023.12.20</p>
+                            </div>
+                            <h2>카카오임팩트,'태크포임팩트 커넥트데이' 진행</h2>
+                            <div class="foot">
+                                #카카오임책트 #테크포임팩트커넥트데이 #김범수초대이사장
+                            </div>               
+                        </article>
+                        <article id="small1" class="small">
+                            <div class="small head">
+                                <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f496.png" width=20 height=20>
+                                <div>약속과 책임</div>
+                            </div>
+                            <h3>ESG보고서, <br> 카카오의 약속과 책임</h3>
+                            <div class="foot">#카카오ESG #ESG보고서</div>
+                        </article>
+                        <article id="small2" class="small">
+                            <div class="small head">
+                                <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f50d.png" width=20 height=20>
+                                <div>카톡설명서</div>
+                            </div>
+                            <h3>모두의 카톡을 더 가깝고 안전하게,카톡설명서</h3>
+                            <div class="foot">#카카오톡 #커뮤니케이션 #라이프</div>
+                        </article>
+                        <article id="small3" class="small">
+                            <div class="small head">
+                                <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f30d.png" width=20 height=20>
+                                <div>액티브그린</div>
+                            </div>
+                            <h3>이용자와 함께 꿈꾸는 <br> 지속가능한 지구</h3>
+                            <div class="foot">#esg #액티브그린 #환경</div>
+                        </article>
+                        <article id="small4" class="small">
+                            <div class="small head">
+                                <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/260e.png" width=20 height=20>
+                                <div>고객센터</div>
+                            </div>
+                            <div id="service">어떤 서비스를 도와드릴까요?</div>
+                            <ul id="service_ul">
+                            <li>카카오</li>
+                            <li>다음</li>
+                            <li>커머스</li>
+                            </ul>
+        
+                        </article>
+                        <article id="mid5">
+                            <div class="mid head">
+                                <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f4e2.png" width=20 height=20>
+                                <div>보도자료</div>
+                                <p>2023.12.20</p>
+                            </div>
+                            <h3>카카오, '제11회 브런치북<br> 출판 프로젝트'수상작 발표</h3>
+                            <div class="foot">#브런치스토리 #제11회브런치북</div>
+                        </article>
+                        <article id="mid6">
+                            <div class="mid head">
+                                <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f4e2.png" width=20 height=20>
+                                <div>보도자료</div>
+                                <p>2023.12.19</p>
+                            </div>
+                            <h3>카카오, 소상공인연합회<br>선정 '상생 우수기업'수상</h3>
+                            <div class="foot">#소상공인연합회 #상생우수기업</div>
+                        </article>
+                        </section> 
+<!-- -------------여기까지 아티클~ -->
 
 
 
