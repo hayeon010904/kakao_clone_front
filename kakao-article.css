@@ -197,7 +197,7 @@ h3{
     section.inform{
             height: 1600px;
             width:952px;
-            margin: auto;                        
+            margin: auto;       ;                 
            
             grid-template-columns: 2fr 1fr;
             grid-template-rows:  11.3rem 11.3rem 11.3rem
