@@ -1,7 +1,8 @@
 section.inform{
      width: 1296px; 
     /* height: 785px; */
-    height: 825px;
+    /* height: 825px; */
+    height: 100%;
     display: grid;
     grid-template-columns: 2fr  1fr 1fr;
     grid-template-rows: 11.3rem 11.3rem 5.5rem 13rem;
@@ -195,9 +196,9 @@ h3{
 @media screen and (max-width:1439px){
    
     section.inform{
-            height: 1600px;
+            height: 1670px;
             width:952px;
-            margin: auto;       ;                 
+            margin: auto;            
            
             grid-template-columns: 2fr 1fr;
             grid-template-rows:  11.3rem 11.3rem 11.3rem
@@ -249,11 +250,15 @@ h3{
     section.inform{
        
         width:630px;
-        margin: auto;                        
-       
-        grid-template-columns: 1fr 1fr;
+        height: 100%;
+          
+        display: grid;                   
+/*        
+        grid-template-columns: 50% 50%; */
+          grid-template-columns: 50% 50%;
         grid-template-rows:  37rem 12rem 12rem 12rem 8rem ;
         transition: width  0.8s ease-in-out;
+        margin: auto;  
         grid-template-areas: 
         
         'a a'
@@ -425,7 +430,8 @@ h3{
        height: 100%;
         margin: auto;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr; */
+     grid-template-columns: 50% 50%;
         grid-template-rows:  28rem 15rem 
         15rem 15rem 15rem
         27rem 27rem;
