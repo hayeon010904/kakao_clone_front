@@ -6,8 +6,6 @@ footer{
 section.footer{
     width:1296px;
     margin:auto;
-    /* margin-bottom: 2rem; */
-
 }
 
 .footer1{
@@ -19,8 +17,8 @@ section.footer{
 .footer1>ul, .footer_link{
     list-style-type: none;
     padding-left:0
-    
 }
+
 .footer1>ul>li, ul.footer_link{
    color: rgb(125, 124, 124);
    font-size: 0.9rem;
@@ -39,7 +37,7 @@ section.footer{
 }
 div.footer_link{
     position: relative;
-    left:-13.6rem;
+    left:-13.1rem;
     top:9rem;
   
 }
@@ -47,14 +45,13 @@ div.footer_link{
 ul.footer_link{
     padding-bottom: 1rem;}
 
+
 #copyright{
     color:rgba(39, 39, 39, 0.625);
     position: relative;
     top:3rem;
-    margin-bottom: 2rem;
-    
+    margin-bottom: 2rem;} 
 
-}
 
 /* -------------------------------------- */
 @media screen and (max-width:1439px){
@@ -64,7 +61,7 @@ ul.footer_link{
             width:952px;
             margin: auto;  }
 
-    }
+    
 div.footer_link{
     position: relative;
     left:-9.9rem;
@@ -74,7 +71,7 @@ div.footer_link{
 
 ul.footer_link{
     padding-bottom: 1rem;}
-    
+}
 /* ------------------------------ */
 @media screen and (max-width:1024px){
   
@@ -108,7 +105,7 @@ ul.footer_link{
     }
 
 
-    div>ul .b{
+    div.footer_link >ul.footer_link:nth-child(2){
         border-bottom: 0.1px solid rgba(193, 192, 192, 0.572);
     }
 
@@ -116,7 +113,9 @@ ul.footer_link{
 /* ---------------------------------------3------------- */
 @media screen and (max-width: 768px){
   
- 
+    div.footer_link >ul.footer_link:nth-child(2){
+        border-bottom: 0.1px solid rgba(193, 192, 192, 0.572);
+    }
 
     section.footer,.footer_link{
        width: 364px;

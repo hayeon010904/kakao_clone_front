@@ -7,9 +7,10 @@ section>.notice{
     align-items: center;
     width: 1296px;
     margin: auto;
-    height: 20rem;
+    height: 15rem;
     padding-left: 1.5rem;
 }
+
 .notice_day>img{    
     width: 16.5rem;;
     padding:0;  
@@ -32,7 +33,7 @@ h1{
     section>.notice{
         width:952px;
         margin: auto;  
-        height: 15rem;
+        height: 10rem;
         }
         .notice_day>img{
         width: 13rem;
@@ -50,7 +51,7 @@ h1{
     section>.notice{
         width:630px;
         margin: auto;    
-        height: 9rem;       
+        height: 6rem;       
         }
         .notice_day>img{
         width: 10.5rem;
